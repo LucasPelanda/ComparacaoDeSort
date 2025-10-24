@@ -32,27 +32,30 @@ analisamos tres tipos de vetores:
 
 ## Resultados Obtidos
 
-| Situação | Algoritmo | Comparações | Trocas |
-| :--- | :--- | ---: | ---: |
-| **Aleatório** | BubbleFlag | 180 | 78 |
-| | Selection | 190 | 18 |
-| | Cocktail | 154 | 78 |
-| | Comb | 129 | 22 |
-| | Gnome | 174 | 78 |
-| | Bucket | 11 | 4 |
-| **Ordenado** | BubbleFlag | 19 | 0 |
-| | Selection | 190 | 0 |
-| | Cocktail | 19 | 0 |
-| | Comb | 110 | 0 |
-| | Gnome | 19 | 0 |
-| | Bucket | 10 | 0 |
-| **Decrescente** | BubbleFlag | 190 | 190 |
-| | Selection | 190 | 10 |
-| | Cocktail | 190 | 190 |
-| | Comb | 129 | 18 |
-| | Gnome | 380 | 190 |
-| | Bucket | 47 | 47 |
 
+### aleatório
+BubbleFlag , comparacoes:180 trocas:88
+Selection , comparacoes:190 trocas:16
+Cocktail , comparacoes:154 trocas:88
+Comb , comparacoes:129 trocas:26
+Gnome , comparacoes:193 trocas:88
+Bucket , comparacoes:11 trocas:7
+
+### ordenado
+BubbleFlag , comparacoes:19 trocas:0
+Selection , comparacoes:190 trocas:0
+Cocktail , comparacoes:19 trocas:0
+Comb , comparacoes:110 trocas:0
+Gnome , comparacoes:19 trocas:0
+Bucket , comparacoes:15 trocas:0
+
+### decrescente
+BubbleFlag , comparacoes:190 trocas:190
+Selection , comparacoes:190 trocas:10
+Cocktail , comparacoes:190 trocas:190
+Comb , comparacoes:129 trocas:18
+Gnome , comparacoes:380 trocas:190
+Bucket , comparacoes:11 trocas:11
 
 
 ## Análise dos Resultados
